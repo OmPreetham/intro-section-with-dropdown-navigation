@@ -1,0 +1,9 @@
+@use '../utils/variables' as *;
+
+.hero {
+  height: 90%;
+
+  &__image {
+    width: 90%;
+  }
+}

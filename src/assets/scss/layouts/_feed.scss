@@ -1,0 +1,13 @@
+@use '../utils/variables' as *;
+
+.feed {
+  display: flex;
+  align-items: center;
+  gap: $gap-mid-high;
+
+  max-width: 1300px;
+
+  padding-block: 1rem;
+
+  margin-inline: auto;
+}

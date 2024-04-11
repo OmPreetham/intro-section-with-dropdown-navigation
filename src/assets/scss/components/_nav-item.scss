@@ -1,0 +1,16 @@
+@use '../utils/variables' as *;
+@use '../base/topography' as *;
+
+@mixin nav-item() {
+  @include font-nav-item;
+}
+
+@mixin nav-item-border() {
+  @include font-nav-item;
+
+  border: 0.1rem solid $clr-neutral-almost-black;
+  border-radius: 0.8rem;
+
+  padding-block: 0.7em;
+  padding-inline: 1.5em;
+}

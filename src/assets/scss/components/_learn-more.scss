@@ -1,0 +1,15 @@
+@use '../utils/variables' as *;
+@use '../base/topography' as *;
+
+@mixin learn-more-button() {
+  padding: 1rem;
+  width: 9rem;
+
+  font-weight: $fw-500;
+
+  background-color: $clr-neutral-almost-black;
+  color: $clr-neutral-almost-white;
+
+  border: none;
+  border-radius: 0.8rem;
+}

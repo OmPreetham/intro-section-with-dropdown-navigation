@@ -31,8 +31,8 @@ const Header = () => {
               Login
             </a>
           </li>
-          <li className="nav__item item">
-            <a className="item__link item__link--border" href="#">
+          <li className="nav__item item nav__item--border">
+            <a className="item__link" href="#">
               Register
             </a>
           </li>

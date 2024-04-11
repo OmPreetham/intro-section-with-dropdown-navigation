@@ -1,0 +1,31 @@
+@use '../utils/variables' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+@mixin font-nav-item {
+  font-size: 0.8rem;
+  font-weight: $fw-500;
+  font-family: $ff-epilogue;
+  color: $clr-neutral-medium-gray;
+
+  a {
+    color: $clr-neutral-medium-gray;
+    text-decoration: none;
+  }
+}
+
+@mixin font-heading1-bold {
+  font-size: 5rem;
+  font-weight: $fw-700;
+  font-family: $ff-epilogue;
+  color: $clr-neutral-almost-black;
+  line-height: 1;
+}
+
+@mixin font-description-mid {
+  font-size: 1rem;
+  font-weight: $fw-500;
+  font-family: $ff-epilogue;
+  color: $clr-neutral-medium-gray;
+  line-height: 1.6;
+}

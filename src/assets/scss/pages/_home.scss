@@ -1,0 +1,21 @@
+@use '../utils/variables' as *;
+
+html {
+  font-size: $fs-base;
+  font-family: $ff-epilogue;
+}
+
+body {
+  max-width: $max-width-body;
+  min-width: $min-width-body;
+
+  min-height: $min-height-screen;
+
+  margin-inline: auto;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

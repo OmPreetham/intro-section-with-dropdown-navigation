@@ -18,7 +18,7 @@ const Partners = () => {
       />
       <img
         className="article__company-logo"
-        src="/images/client-marker.svg"
+        src="/images/client-maker.svg"
         alt="Marker Logo"
       />
     </div>

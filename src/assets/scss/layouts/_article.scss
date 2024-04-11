@@ -1,0 +1,44 @@
+@use '../utils/variables' as *;
+@use '../base/topography' as *;
+@use '../components/learn-more' as *;
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+
+  height: 100%;
+
+  padding-top: 6rem;
+
+  padding-inline: 4rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-mid-high;
+  }
+
+  &__heading {
+    @include font-heading1-bold;
+  }
+
+  &__description {
+    @include font-description-mid;
+    width: 90%;
+  }
+
+  &__button {
+    @include learn-more-button;
+  }
+
+  &__partners {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gap-mid;
+  }
+
+  &__company-logo {
+    height: 60%;
+  }
+}

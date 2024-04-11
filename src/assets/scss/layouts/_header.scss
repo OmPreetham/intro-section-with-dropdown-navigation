@@ -1,0 +1,40 @@
+@use '../utils/variables' as *;
+@use '../components/nav-item' as *;
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: $gap-normal;
+
+  width: 100vw;
+
+  padding-block: 1.3rem;
+  padding-inline: 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  width: 90%;
+
+  margin-left: auto;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: $gap-mid-high;
+
+    padding-left: 0;
+
+    list-style-type: none;
+  }
+
+  &__item {
+    @include nav-item;
+  }
+
+  &__item--border {
+    @include nav-item-border;
+  }
+}
