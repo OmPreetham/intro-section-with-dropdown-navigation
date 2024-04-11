@@ -1,4 +1,12 @@
+import Header from './components/Header'
+import Feed from './components/Feed'
+
 const App = () => {
-  return <div>App</div>
+  return (
+    <>
+      <Header />
+      <Feed />
+    </>
+  )
 }
 export default App
