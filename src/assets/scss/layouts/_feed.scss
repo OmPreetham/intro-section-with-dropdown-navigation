@@ -1,13 +1,22 @@
 @use '../utils/variables' as *;
 
 .feed {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: $gap-mid-high;
 
-  max-width: 1300px;
+  height: 100%;
 
-  padding-block: 1rem;
+  max-width: 1200px;
+
+  margin-block: 1rem;
 
   margin-inline: auto;
+}
+
+@media screen and (max-width: 850px) {
+  .feed {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

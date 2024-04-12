@@ -6,8 +6,6 @@
   align-items: center;
   gap: $gap-normal;
 
-  width: 100vw;
-
   padding-block: 1.3rem;
   padding-inline: 2rem;
 }
@@ -15,10 +13,11 @@
 .nav {
   display: flex;
   justify-content: space-between;
-
-  width: 90%;
+  gap: $gap-mid-high;
 
   margin-left: auto;
+
+  width: 90%;
 
   &__list {
     display: flex;
