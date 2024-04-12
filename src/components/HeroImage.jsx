@@ -4,7 +4,7 @@ const HeroImage = () => {
       <picture className="hero__picture">
         <source
           srcSet="/images/image-hero-mobile.png"
-          media="(max-width: 800px)"
+          media="(max-width: 850px)"
         />
         <img
           className="hero__image"

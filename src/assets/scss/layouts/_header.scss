@@ -37,3 +37,17 @@
     @include nav-item-border;
   }
 }
+
+@media screen and (max-width: 850px) {
+  .header {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .menu-wrapper {
+    width: auto;
+    cursor: pointer;
+  }
+  .nav {
+    display: none;
+  }
+}

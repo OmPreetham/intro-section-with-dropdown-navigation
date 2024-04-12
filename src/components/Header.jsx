@@ -2,6 +2,9 @@ const Header = () => {
   return (
     <header className="header">
       <img className="logo" src="/images/logo.svg" alt="Logo" />
+      <div className="menu-wrapper">
+        <img className="menu" src="/images/icon-menu.svg" alt="Icon Menu" />
+      </div>
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item item">
