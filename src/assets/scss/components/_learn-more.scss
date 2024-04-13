@@ -10,6 +10,14 @@
   background-color: $clr-neutral-almost-black;
   color: $clr-neutral-almost-white;
 
-  border: none;
+  border: 0.1rem solid $clr-neutral-almost-black;
   border-radius: 0.8rem;
+
+  cursor: pointer;
+
+  &:focus,
+  &:hover {
+    background-color: $clr-neutral-almost-white;
+    color: $clr-neutral-almost-black;
+  }
 }

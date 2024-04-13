@@ -26,9 +26,15 @@ Desktop
 
 ![Desktop Preview](/public/preview-desktop.png)
 
+![Desktop Preview Menu](/public/preview-desktop-menu.png)
+
+![Desktop Preview Button](/public/preview-desktop-button.png)
+
 Mobile
 
 ![Mobile Preview](/public/preview-mobile.png)
+
+![Mobile Preview Menu](/public/preview-mobile-menu.png)
 
 ## Getting Started
 
