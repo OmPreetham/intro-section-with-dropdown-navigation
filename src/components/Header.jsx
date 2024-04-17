@@ -26,12 +26,12 @@ const Header = () => {
 
   return (
     <header className="header">
-      <img className="logo" src="/images/logo.svg" alt="Logo" />
+      <img className="logo" src="images/logo.svg" alt="Logo" />
       <div className="menu-wrapper">
         <img
           onClick={toggleMenu}
           className="menu"
-          src={`/images/icon-${isMenuOpen ? 'close-menu' : 'menu'}.svg`}
+          src={`images/icon-${isMenuOpen ? 'close-menu' : 'menu'}.svg`}
           alt="Icon Menu"
         />
       </div>

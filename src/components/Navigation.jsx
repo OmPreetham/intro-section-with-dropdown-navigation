@@ -12,7 +12,7 @@ const Navigation = () => {
                 <a className="nav__dropdown__link" href="">
                   <img
                     className="nav__dropdown__image"
-                    src="/images/icon-todo.svg"
+                    src="images/icon-todo.svg"
                     alt="TODO"
                   />
                   <p className="nav__dropdown__name"> Todo List</p>
@@ -22,7 +22,7 @@ const Navigation = () => {
                 <a className="nav__dropdown__link" href="">
                   <img
                     className="nav__dropdown__image"
-                    src="/images/icon-calendar.svg"
+                    src="images/icon-calendar.svg"
                     alt="Calendar"
                   />
                   <p className="nav__dropdown__name">Calendar</p>
@@ -32,7 +32,7 @@ const Navigation = () => {
                 <a className="nav__dropdown__link" href="">
                   <img
                     className="nav__dropdown__image"
-                    src="/images/icon-reminders.svg"
+                    src="images/icon-reminders.svg"
                     alt="Reminders Icon"
                   />
                   <p className="nav__dropdown__name">Reminders</p>
@@ -42,7 +42,7 @@ const Navigation = () => {
                 <a className="nav__dropdown__link" href="">
                   <img
                     className="nav__dropdown__image"
-                    src="/images/icon-planning.svg"
+                    src="images/icon-planning.svg"
                     alt="Planning Icon"
                   />
                   <p className="nav__dropdown__name">Planning</p>
